@@ -47,3 +47,10 @@ var sayHi = () => console.log("Hi");
 
 > [!IMPORTANT]
 > To avoid bugs, always declare variables at the top of their scope and prefer `let` or `const` over `var`.
+
+---
+
+## References
+- [MDN Web Docs: Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+- [MDN Web Docs: var statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+- [MDN Web Docs: Temporal Dead Zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#temporal_dead_zone_tdz)

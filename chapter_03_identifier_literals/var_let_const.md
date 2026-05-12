@@ -44,3 +44,11 @@ const z = 10;
 1. Use `const` by default.
 2. Use `let` only if you know the value needs to change later.
 3. Avoid `var` in modern JavaScript to prevent scope-related bugs.
+
+---
+
+## References
+- [MDN Web Docs: var statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+- [MDN Web Docs: let statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+- [MDN Web Docs: const statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+- [MDN Web Docs: Block scope](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block)
