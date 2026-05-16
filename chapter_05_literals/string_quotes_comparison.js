@@ -37,3 +37,4 @@ let newWay = `Tool: ${tool}, Year: ${year}`;    // Much cleaner
 console.log("\n--- Comparison ---");
 console.log("Old Way:", oldWay);
 console.log("New Way:", newWay);
+ 
