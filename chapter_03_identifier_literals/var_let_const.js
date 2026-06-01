@@ -7,6 +7,28 @@ function varExample() {
 }
 varExample();
 
+// example 2
+
+var a = 10;// Global SCOPE
+console.log("value of global a " + a);
+
+function printHello() {
+    console.log("example 2 of var!");
+    var a = 20; // Local Scope
+    console.log("value of a inside the function scope " + a);
+    if (true) {
+        var a = 30;
+        console.log("value of a inside the if block " + a); // 30
+    }
+    console.log("value of a outside the if block " + a);
+
+}
+console.log("value of global a before the function call " + a);
+printHello();
+console.log("value of global a before the function call (reinitialized) " + a);
+var a = 50;
+console.log("value of global a after the function call (reinitialized) " + a);
+
 // 2. let - Block Scoped
 function letExample() {
     if (true) {
@@ -16,6 +38,25 @@ function letExample() {
     // console.log(y); // Error: y is not defined (Block Scoped)
 }
 letExample();
+
+// example 2
+
+let p = 10;// Global SCOPE
+console.log(p);
+
+function printHello1() {
+    console.log("example 2 of let!");
+    let p = 20; // Local Scope
+    console.log("value of p inside the function scope - " + p);
+    if (true) {
+        let p = 30;
+        console.log("value of p inside the if block - " + p); // 30
+    }
+    console.log("value of p outside the if block - " + p);
+
+}
+printHello1();
+
 
 // 3. const - Block Scoped & Immutable Binding
 function constExample() {

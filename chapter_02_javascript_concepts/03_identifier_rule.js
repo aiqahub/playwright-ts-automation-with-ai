@@ -35,3 +35,15 @@ console.log(userName, _privateCount, $submitButton, user123, USER_ROLE, CamelCas
 // let user name = "Bob";      // INVALID: Cannot contain spaces
 // let function = 5;           // INVALID: Cannot use a reserved keyword ('function')
 // let myVar@name = "Test";    // INVALID: Cannot contain special characters like '@'
+
+
+// Unicode letters and Unicode escape sequences are allowed
+let café = "Unicode letter é";
+let 变量 = "Chinese characters";
+let \u0041 = "Unicode escape for A"; // Equivalent to: let A = ...
+let \u005f = "Unicode escape for _"; // Equivalent to: let _ = ...
+
+console.log(café);
+console.log(变量);
+console.log(\u0041);
+console.log(\u005f);
